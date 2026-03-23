@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Main
 {
-
 	public static void main(String[] args) 
 	{
 		Scanner sc =new Scanner(System.in);
@@ -30,8 +29,7 @@ public class Main
 			System.out.println("0. SAIR");
 			System.out.print("\nEscolha um exercício: ");
 			exercicio = sc.nextInt();
-		
-		
+			
 		switch (exercicio)
 		{
 		case 1: 
@@ -352,11 +350,8 @@ public class Main
 		default:
 			System.out.println("\nOpção inválida.\nEscolha uma das opções disponíveis.");
 			break;				
-			
 		}
 	    }
-
 		sc.close();
 	}
 }
-
